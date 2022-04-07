@@ -50,7 +50,7 @@
 
         ![venvCriado](venv1.png)
     
-    * Obs. O pycharm faz a criação automática do ambiente do projeto nos casos dos novos projetos. Solicitanto apenas que o usuário informe o interpretador base para o projeto.
+    * Obs. O pycharm faz a criação automática do ambiente do projeto nos casos dos novos projetos. Solicitanto apenas que o usuário informe o interpretador base para o projeto (preferencialmente 3.7.7).
 
         ![venvNovoProjeto](pycharm1.png)
 
