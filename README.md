@@ -1,4 +1,4 @@
-# DjangoBasico
+# Django Básico
 
 ## Configurações iniciais
 
