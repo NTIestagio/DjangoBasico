@@ -24,7 +24,7 @@
     * Siga o instalador proguindo sempre com as opções padrão já selecionadas.
     * Observe que há duas versões do PyCharm, uma gratuita (community) e ou paga (professional), para a qual deve ser adquirida licença.
     
-1. **Criando um ambiente virtual python**
+1. **Criando e ativando um ambiente virtual python**
 
     * Aplicações em Python normalmente usam pacotes e módulos que não vêm como parte da instalação padrão. Aplicações às vezes necessitam uma versão específica de uma biblioteca, porque ela requer que algum problema em particular tenha sido consertado ou foi escrita utilizando-se de uma versão obsoleta da interface da biblioteca.
     * Isso significa que talvez não seja possível que uma instalação Python preencha os requisitos de qualquer aplicação. Se uma aplicação A necessita a versão 1.0 de um módulo particular mas a aplicação B necessita a versão 2.0, os requisitos entrarão em conflito e instalar qualquer uma das duas versões 1.0 ou 2.0 fará com que uma das aplicações não consiga executar.
@@ -46,10 +46,23 @@
             > pythom -m venv <caminho absoluto (ou relativo) do direitório a ser criado>
         ```
     
-    * O comando cria o diretório do ambiente virtual python. Veja o exemplo abaixo da criação do ambiente "ambVirt1":
+    * O comando cria o diretório do ambiente virtual python, . Veja o exemplo abaixo da criação do ambiente "ambVirt1":
 
-        ![venv criado](venv1.png)
+        ![venvCriado](venv1.png)
+    
+    * Obs. O pycharm faz a criação automática do ambiente do projeto nos casos dos novos projetos. Solicitanto apenas que o usuário informe o interpretador base para o projeto.
+
+        ![venvNovoProjeto](pycharm1.png)
+
+    * A ativação do ambiente pode ser feita a partir do próprio terminal do pycharm, via prompt ou powershell. Usualmente, o terminal do pycharm abre o prompt de comando do Windows já utilizando o ambiente ativado. Isso pode ser verificado a partir da própria indicação na linha de comando.
+    * Caso não o ambiente não esteja ativado, a ativação pode ser feita manualmente executando-se o script "activate" no diretório "Scripts" contido no diretório do ambiente a ser utilizado.
+
+        ![terminalPycharm](pycharm2.png)
+    
+
+
 
 1. **Instalando Django**
 
     asdfasf
+
