@@ -55,13 +55,23 @@
         ![venvNovoProjeto](pycharm1.png)
 
     * A ativação do ambiente pode ser feita a partir do próprio terminal do pycharm, via prompt ou powershell. Usualmente, o terminal do pycharm abre o prompt de comando do Windows já utilizando o ambiente ativado. Isso pode ser verificado a partir da própria indicação na linha de comando.
-    * Caso não o ambiente não esteja ativado, a ativação pode ser feita manualmente executando-se o script "activate" no diretório "Scripts" contido no diretório do ambiente a ser utilizado.
 
         ![terminalPycharm](pycharm2.png)
-    
 
+    * Caso não o ambiente não esteja ativado, a ativação pode ser feita manualmente executando-se o script "activate" no diretório "Scripts" contido no diretório do ambiente a ser utilizado.
 
+        * Para *prompt* de comando:
 
+            ```
+                (...)\<nome-do-ambiente>\Scripts> activate 
+            ```
+
+        * Para *powerShell*:
+
+            ```
+                (...)\<nome-do-ambiente>\Scripts> activate.ps1 
+            ```
+        
 1. **Instalando Django**
 
     asdfasf
