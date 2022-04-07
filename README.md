@@ -43,7 +43,7 @@
     * Cria-se o ambiente virtual, nos SO Windows, através do comando (prompt):
     
         ```
-            > pythom -m venv <caminho absoluto do direitório a ser criado>
+            > pythom -m venv <caminho absoluto (ou relativo) do direitório a ser criado>
         ```
     
     * O comando cria o diretório do ambiente virtual python. Veja o exemplo abaixo da criação do ambiente "ambVirt1":
