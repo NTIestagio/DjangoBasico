@@ -115,14 +115,14 @@
     
     * Observa-se a finalização da instalação dos componentes:
 
-    ![djangoinstall](django1.png)
+        ![djangoinstall](django1.png)
 
-    Obs.: Pode-se observar as bibliotecas instaladas no ambiente a partir do comando (prompt):
+    * Obs. Pode-se observar as bibliotecas instaladas no ambiente a partir do comando (prompt):
 
         ``` powershell
             (...)\> pip freeze
         ```
 
-    Sendo exibidas com abaixo:
+    * Sendo exibidas como abaixo:
 
-    ![pipFreeze](django2.png)
+        ![pipFreeze](django2.png)
