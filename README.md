@@ -29,18 +29,27 @@
     * Aplicações em Python normalmente usam pacotes e módulos que não vêm como parte da instalação padrão. Aplicações às vezes necessitam uma versão específica de uma biblioteca, porque ela requer que algum problema em particular tenha sido consertado ou foi escrita utilizando-se de uma versão obsoleta da interface da biblioteca.
     * Isso significa que talvez não seja possível que uma instalação Python preencha os requisitos de qualquer aplicação. Se uma aplicação A necessita a versão 1.0 de um módulo particular mas a aplicação B necessita a versão 2.0, os requisitos entrarão em conflito e instalar qualquer uma das duas versões 1.0 ou 2.0 fará com que uma das aplicações não consiga executar.
     * A solução para este problema é criar um ambiente virtual, uma árvore de diretórios que contém uma instalação Python para uma versão particular do Python, além de uma série de pacotes adicionais.
-    * A criação de um ambiente virtual python pressupõe logicamente a instalação prévia do python, vez que a aplicação pip é instalada juntamente com o python por padrão. A verificação da versão do pip instalada pode ser feita através do comando:
+    * A criação de um ambiente virtual python pressupõe logicamente a instalação prévia do python, vez que a aplicação pip é instalada juntamente com o python por padrão. A verificação da versão do pip instalada pode ser feita através do comando (prompt):
 
         ```
             > pip --version
         ```
+
     * A versão será exibida abaixo:
     
         ![versao](pip1.png)
     
-    * A criação de um ambiente virtual
+    * Um ambiente virtual python pode ser criado em qualquer diretório da máquina. No entanto sugere-se a sua criação em diretório distinto daquele destinado ao projeto.
+    * Cria-se o ambiente virtual, nos SO Windows, através do comando (prompt):
     
+        ```
+            > pythom -m venv <caminho absoluto do direitório a ser criado>
+        ```
+    
+    * O comando cria o diretório do ambiente virtual python. Veja o exemplo abaixo da criação do ambiente "ambVirt1":
+
+        ![venv criado](venv1.png)
+
 1. **Instalando Django**
 
     asdfasf
-
