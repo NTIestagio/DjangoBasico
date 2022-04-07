@@ -42,13 +42,25 @@
     * Um ambiente virtual python pode ser criado em qualquer diretório da máquina. No entanto sugere-se a sua criação em diretório distinto daquele destinado ao projeto.
     * Cria-se o ambiente virtual, nos SO Windows, através do comando (prompt):
     
-        ```
+        ``` prompt
             > pythom -m venv <caminho absoluto (ou relativo) do direitório a ser criado>
         ```
     
     * O comando cria o diretório do ambiente virtual python, . Veja o exemplo abaixo da criação do ambiente "ambVirt1":
 
         ![venvCriado](venv1.png)
+    
+    * Pode-se criar um ambiente virtual a partir da ferramenta VIRTUALENV. Sua instalação é realizada a partir do comando:
+
+        ``` powershell
+            > pip install virtualenv
+        ```
+
+        A consulta da versão pode ser realizada a partir do comando:
+
+        ``` powershell
+            > virtualenv --version
+        ```
     
     * Obs. O pycharm faz a criação automática do ambiente do projeto nos casos dos novos projetos. Solicitanto apenas que o usuário informe o interpretador base para o projeto (preferencialmente 3.7.7).
 
@@ -62,13 +74,26 @@
 
         * Para *prompt* de comando:
 
-            ```
+            ``` command prompt
                 (...)\<nome-do-ambiente>\Scripts> activate 
             ```
 
         * Para *powerShell*:
 
+            ``` powershell
+                (...)\<nome-do-ambiente>\Scripts> activate.ps1 
             ```
+        
+        * O *powerShell* pode apresentar uma mensagem de erro referente a impossibilidade de execução de scripts. Para solucionar o problema, altere a política de execução de script ao powerShell através do comando abaixo:
+        
+            ``` powershell
+                > Set-ExecutionPolicy Unrestricted
+                > S
+            ```
+
+            Em seguida realize a ativação pelo comando:
+
+            ``` powershell
                 (...)\<nome-do-ambiente>\Scripts> activate.ps1 
             ```
         
