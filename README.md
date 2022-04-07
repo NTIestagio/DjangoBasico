@@ -40,13 +40,13 @@
         ![versao](pip1.png)
     
     * Um ambiente virtual python pode ser criado em qualquer diretório da máquina. No entanto sugere-se a sua criação em diretório distinto daquele destinado ao projeto.
-    * Cria-se o ambiente virtual, nos SO Windows, através do comando (prompt):
+    * Cria-se o ambiente virtual, no SO Windows, através do comando (prompt):
     
         ``` prompt
             > pythom -m venv <caminho absoluto (ou relativo) do direitório a ser criado>
         ```
     
-    * O comando cria o diretório do ambiente virtual python, . Veja o exemplo abaixo da criação do ambiente "ambVirt1":
+    * O comando cria o diretório do ambiente virtual python, colocando os componentes necessários dentro. Veja o exemplo abaixo da criação do ambiente "ambVirt1":
 
         ![venvCriado](venv1.png)
     
@@ -61,12 +61,20 @@
         ``` powershell
             > virtualenv --version
         ```
-    
-    * Obs. O pycharm faz a criação automática do ambiente do projeto nos casos dos novos projetos. Solicitanto apenas que o usuário informe o interpretador base para o projeto (preferencialmente 3.7.7).
+
+    * Cria-se um ambiente virtual no diretório atual com a ferramenta virtualenv a partir do comando (prompt):
+
+        ``` powershell
+            > virtualenv <nome-do-ambiente>
+        ```
+
+        ![virtualenv](virtualenv1.png)
+
+    * Obs.: O pycharm faz a criação automática do ambiente do projeto nos casos dos novos projetos. Solicitanto apenas que o usuário informe o interpretador base para o projeto (preferencialmente 3.7.7).
 
         ![venvNovoProjeto](pycharm1.png)
 
-    * A ativação do ambiente pode ser feita a partir do próprio terminal do pycharm, via prompt ou powershell. Usualmente, o terminal do pycharm abre o prompt de comando do Windows já utilizando o ambiente ativado. Isso pode ser verificado a partir da própria indicação na linha de comando.
+    * A ativação do ambiente pode ser feita a partir do próprio terminal do pycharm, via prompt ou powershell. Usualmente, o terminal do pycharm abre o prompt de comando do Windows já utilizando o ambiente ativado, caso o projeto tenha sido criado a partir da opção de novo ambiente virtual assinalada. Isso pode ser verificado a partir da própria indicação na linha de comando.
 
         ![terminalPycharm](pycharm2.png)
 
@@ -99,5 +107,5 @@
         
 1. **Instalando Django**
 
-    asdfasf
+    * asdfasf
 
