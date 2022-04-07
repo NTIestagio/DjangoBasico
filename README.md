@@ -24,7 +24,7 @@
     * Siga o instalador proguindo sempre com as opções padrão já selecionadas.
     * Observe que há duas versões do PyCharm, uma gratuita (community) e ou paga (professional), para a qual deve ser adquirida licença.
     
-1. **Configuração de ambiente virtual**
+1. **Criando um ambiente virtual python**
 
     * Aplicações em Python normalmente usam pacotes e módulos que não vêm como parte da instalação padrão. Aplicações às vezes necessitam uma versão específica de uma biblioteca, porque ela requer que algum problema em particular tenha sido consertado ou foi escrita utilizando-se de uma versão obsoleta da interface da biblioteca.
     * Isso significa que talvez não seja possível que uma instalação Python preencha os requisitos de qualquer aplicação. Se uma aplicação A necessita a versão 1.0 de um módulo particular mas a aplicação B necessita a versão 2.0, os requisitos entrarão em conflito e instalar qualquer uma das duas versões 1.0 ou 2.0 fará com que uma das aplicações não consiga executar.
@@ -38,6 +38,7 @@
     
         ![versao](pip1.png)
     
+    * A criação de um ambiente virtual
     
 1. **Instalando Django**
 
