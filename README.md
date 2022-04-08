@@ -247,10 +247,27 @@
     
     ![templates](temp1.png)
     
-    * A variável 'context' dentro da view é passada para o template a partir da função render() da view. As informações passadas ficam disponíves para utilização do template (obs. o servidor deve estar em execução para visualização da pagina gerada).
+    * A variável 'context' dentro da view é passada para o template a partir da função render() da view. As informações passadas ficam disponíves para utilização do template (obs. o servidor deve estar em execução para visualização da página gerada).
 
     ![viewContext](view2.png)
     
     ![index](temp2.png)
     
+1. Model da aplicação
+
+    * Um model é uma fonte única e definitiva de informações sobre os seus dados. Ele contém os campos e comportamentos essenciais dos dados que você está armazenando. Em geral, cada modelo mapeia uma única tabela no seu banco de dados.
+    * O arquivo 'models.py' representa uma classe python, enquanto cada atributo do model representa um campo de base de dados.
+    * Foram criados os campos nome, preço e estoque. Cada compo criado corresponde a um atributo de classe, que por sua vez mapeia uma coluna do banco de dados.
+
+    ![model](mod1.png)
     
+    * Finalizada a criação do model, procede-se a criação do arquivo de migration referente ao modelo no diretório 'migrations' da aplicação através do comando:
+    
+    ``` powershell
+        (...)\<nome-do-projeto> python manage.py makemigrations
+    ```
+    
+    ![migration](mod2.png)
+    
+    ![migration](mod3.png)
+
