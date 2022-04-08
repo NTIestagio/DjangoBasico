@@ -196,15 +196,15 @@
 
     * Inicializando o servidor:
     
-    ``` powershell
-        (...)\> python3 manage.py runserver
-    ```
-    
-    ``` powershell
-        (...)\> python manage.py runserver
-    ```
-        
-    ![mvt](django7.png)
+        ``` powershell
+            (...)\> python3 manage.py runserver
+        ```
+
+        ``` powershell
+            (...)\> python manage.py runserver
+        ```
+
+        ![mvt](django7.png)
     
         * obs. para encerrar o servidor aperte <control+c>
     
@@ -214,7 +214,7 @@
     
     ![mvt](django8.png)
     
-    * Observe que ao cliclar no endereço fornecido (geralmente loopback), será exibida a seguinte página (já em sua versão traduzida, caso tenha sido feita a alteração acima):
+    * Observe que ao cliclar no endereço fornecido ao ser inicializado o servidor (geralmente loopback), será exibida a seguinte página (já em sua versão traduzida, caso tenha sido feita a alteração acima):
 
     ![mvt](django10.png)
     
