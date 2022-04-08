@@ -152,9 +152,9 @@
             (...)\> django-admin startapp <nome-da-app>
         ```
     
-    * Observe que a ferramenta cria os diretórios referentes a aplicação Django:
+    * Observe que a ferramenta cria os diretórios referentes a aplicação Django (foi utilizado o nome 'core' para aplicação):
 
-        ![django?](django3.png)
+        ![djangoAPP](django3.png)
 
     * Dentro do diretório do projeto Django, faça a inclusão da aplicação no arquivo "settings.py" em "INSTALLED_APPS". Também acrescente a lista de "TEMPLATES" o diretório "templates".
 
