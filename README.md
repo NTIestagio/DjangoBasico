@@ -312,3 +312,9 @@
         ![login](admin5.png)
         
         ![login](admin6.png)
+
+    * O gerenciamento da base de dados criada passa então para a interface de administração do Site. No exemplo, pode-se criar, alterar e deletar produtos e clientes.
+    * Alterações da interface de exibição dos models criados para a aplicação podem ser realizadas a partir do arquivo 'admin.py' da aplicação. A forma de exibição dos dados cadastrados pode ser alterada a partir de uma classe admin.ModelAdmin() com o uso de list_display:
+
+        ![login](admin7.png)
+        
