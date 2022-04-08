@@ -318,3 +318,7 @@
 
         ![login](admin7.png)
         
+1. Django Shell
+
+    * A lista de comandos disponível para o manage.py é exibida a partir do comando 'python manage.py'.
+    * O comando 'python manage.py help <subcomando>' 
