@@ -267,7 +267,20 @@
         (...)\<nome-do-projeto> python manage.py makemigrations
     ```
     
-    ![migration](mod2.png)
+    obs.: a criação da migration depende a inclusão da aplicação no arquivo settings.py do projeto.
     
-    ![migration](mod3.png)
+    ![criandoMigration](mod2.png)
+    
+    Realizada a operação, pode ser verificada a criação do arquivo migration na aplicação:
+    
+    ![criandoMigration](mod3.png)
+    
+    * Criada a migration, é necessaria sua aplicação a partir do comando:
 
+    ``` powershell
+        (...)\<nome-do-projeto> python manage.py migrate
+    ```
+    
+    ![aplicandomigration](mod4.png)
+    
+    
