@@ -281,6 +281,11 @@
             (...)\<nome-do-projeto> python manage.py migrate
         ```
     
-    ![aplicandomigration](mod4.png)
+    * É exibida então a mensagem de aplicação das migrations pendentes:
+ 
+        ![aplicandomigration](mod4.png)
     
+1. Área administrativa e arquivo 'admin.py'
+
+    * 
     
