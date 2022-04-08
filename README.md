@@ -218,3 +218,17 @@
 
     ![mvt](django10.png)
     
+1. Criando uma view no app Django
+
+    * A criação de views para o app Django é feita a partir do arquivo 'views.py' localizado no diretório da aplicação.
+
+    ![criarView](view1.png)
+    
+1. Adicionando Rotas e URLs
+
+    * As rotas para as views de aplicações são gerenciadas a partir do arquivo 'urls.py' no diretório do projeto Django.
+    * Faça a importação das funções relativas a aplicação a ser referenciada. A seguir insira os paths relativos a cada views de acordo com a hierarquia concebida.
+
+    ![urls](urls1.png)
+    
+    
