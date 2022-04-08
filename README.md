@@ -287,5 +287,16 @@
     
 1. Área administrativa e arquivo 'admin.py'
 
+    * Observe que existe uma interface administrativa para projeto:
+
+        ![interfAdmin](admin1.png)
+        
+    * É necessaria a criação de um usuário administrativo para o projeto. Utiliza-se o comando:
+        
+        ``` powershell
+            (...)\<nome-do-projeto> python manage.py createsuperuser
+        ```
+        
+        ![criandoSU](admin2.png)
+        
     * 
-    
