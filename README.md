@@ -163,4 +163,13 @@
     
         ![templates](django5.png)
     
-    * 
+1. Projetos vs. Aplicações Django
+
+    * O Django abrange um projeto, que representa todo o escopo, e aplicações, responsáveis pelas tarefas específicas.
+
+1. Padrão MTV do Django
+
+    * MVT significa Model-View-Template. Às vezes também é referido como MTV (Model-Template-View). MVT é um padrão de design ou arquitetura de design que o Django segue para desenvolver aplicações web. É um pouco diferente do padrão de design MVC (Model-View-Controller) comumente conhecido.
+    * O 'Model' gerencia os dados e é representado por um banco de dados. O 'model' é basicamente uma tabela de banco de dados.
+    * A 'View' recebe solicitações HTTP e envia respostas HTTP. A 'view' interage com um modelo e um template para concluir uma resposta.
+    * O 'Template' é basicamente a camada front-end e o componente HTML dinâmico de uma aplicação Django.
