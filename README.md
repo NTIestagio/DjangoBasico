@@ -291,7 +291,7 @@
 
         ![interfAdmin](admin1.png)
         
-    * É necessaria a criação de um usuário administrativo para o projeto. Utiliza-se o comando:
+    * É necessaria a criação de um usuário administrativo (administrador do sistema) para o projeto. Deve ser fornecido um nome de usuário, senha e email. Utiliza-se o comando:
         
         ``` powershell
             (...)\<nome-do-projeto> python manage.py createsuperuser
@@ -299,4 +299,16 @@
         
         ![criandoSU](admin2.png)
         
-    * 
+    * Finalizada a criação, é possivel realizar o login na área administrativa (com o servidor em execução):
+
+        ![login](admin3.png)
+        
+    * Para que os campos referentes aos models sejam disponibilizados na área administrativa do site, é necessario realizar a alteração do arquivo admin.py da aplicação para incluir as referências aos models criados:
+
+        ![login](admin4.png)
+    
+    * Veja que agora a área de administração do Site passa a exibir os modelos da aplicação criada. Sendo possível gerenciá-los a partir da interface de acordo com os atributos fornecidos:
+
+        ![login](admin5.png)
+        
+        ![login](admin6.png)
