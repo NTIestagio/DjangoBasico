@@ -182,15 +182,15 @@
         
         no linux:
         
-        ``` powershell
-            (...)\> ls
-        ```
+            ``` powershell
+                (...)\> ls
+            ```
 
         ou no windows:
 
-        ``` powershell
-            (...)\> dir
-        ```
+            ``` powershell
+                (...)\> dir
+            ```
         
         Como resultado deverão ser informados os arquivos e diretórios contindos no diretório atual, devendo estar incluído entre eles o arquivo 'manage.py'.
 
@@ -263,9 +263,9 @@
     
     * Finalizada a criação do model, procede-se a criação do arquivo de migration referente ao modelo no diretório 'migrations' da aplicação através do comando:
     
-    ``` powershell
-        (...)\<nome-do-projeto> python manage.py makemigrations
-    ```
+        ``` powershell
+            (...)\<nome-do-projeto> python manage.py makemigrations
+        ```
     
     obs.: a criação da migration depende a inclusão da aplicação no arquivo settings.py do projeto.
     
@@ -277,9 +277,9 @@
     
     * Criada a migration, é necessaria sua aplicação a partir do comando:
 
-    ``` powershell
-        (...)\<nome-do-projeto> python manage.py migrate
-    ```
+        ``` powershell
+            (...)\<nome-do-projeto> python manage.py migrate
+        ```
     
     ![aplicandomigration](mod4.png)
     
