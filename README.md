@@ -144,7 +144,7 @@
 
         ![venvNovoProjeto](pycharm1.png)
 
-1. **Criando uma aplicação Django
+1. **Criando uma aplicação Django**
     
     * Utilize o comando abaixo para criar uma aplicação Django dentro do diretório do projeto:
 
@@ -156,7 +156,7 @@
 
         ![djangoAPP](django3.png)
 
-    * Dentro do diretório do projeto Django, faça a inclusão da aplicação no arquivo "settings.py" em "INSTALLED_APPS". Também acrescente a lista de "TEMPLATES" o diretório "templates".
+    * Dentro do diretório do **projeto Django** (não no diretório da APP), faça a inclusão da aplicação no arquivo "settings.py" em "INSTALLED_APPS". Também acrescente a lista de "TEMPLATES" o diretório "templates".
 
         ![installed-apps](django4.png)
     
