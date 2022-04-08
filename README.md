@@ -117,7 +117,7 @@
 
         ![djangoinstall](django1.png)
 
-    * Obs. Pode-se observar as bibliotecas instaladas no ambiente a partir do comando (prompt):
+    * Pode-se observar as bibliotecas instaladas no ambiente a partir do comando (prompt):
 
         ``` powershell
             (...)\> pip freeze
@@ -126,3 +126,41 @@
     * Sendo exibidas como abaixo:
 
         ![pipFreeze](django2.png)
+
+    * Obs. Aconselha-se redirecionar a saida do comando freeze para um arquivo de requiments.txt:
+
+        ``` powershell
+            (...)\> pip freeze > requiriments.txt
+        ```
+1. **Criando um projeto Django
+
+    * Utilize o comando abaixo para criar o projeto Django dentro do diretório do projeto:
+
+        ``` powershell
+            (...)\> django-admin startproject <nome-do-projeto> .
+        ```
+    
+    * Observe que a ferramenta cria os diretórios referentes ao projeto Django:
+
+        ![venvNovoProjeto](pycharm1.png)
+
+1. **Criando uma aplicação Django
+    
+    * Utilize o comando abaixo para criar uma aplicação Django dentro do diretório do projeto:
+
+        ``` powershell
+            (...)\> django-admin startapp <nome-da-app>
+        ```
+    
+    * Observe que a ferramenta cria os diretórios referentes a aplicação Django:
+
+        ![django?](django3.png)
+
+    * Dentro do diretório do projeto Django, faça a inclusão da aplicação no arquivo "settings.py" em "INSTALLED_APPS". Também acrescente a lista de "TEMPLATES" o diretório "templates".
+
+        ![installed-apps](django4.png)
+    
+    
+        ![templates](django5.png)
+    
+    * 
