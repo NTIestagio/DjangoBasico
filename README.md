@@ -235,10 +235,22 @@
 
     ![rotas](rotas1.png)
     
-    * Sugere-se dessa forma a criação de um arquivo de rotas (urls.py) dentro da aplicação e apenas um path referenciando a esse arquivo dentro do arquivo de rotas do projeto através da função include.
+    * Sugere-se dessa forma a criação de um arquivo de rotas (urls.py) dentro da aplicação e apenas um path referenciando a esse arquivo dentro do arquivo de rotas do projeto através da função include().
 
     ![rotas](rotas2.png)
     
     ![urls](urls2.png)
+    
+1. Criando o diretório de templates e arquivos html para aplicação
+
+    * Crie um diretório 'templates' dentro do diretório da aplicação e dentro dele os arquivos html referente as views anteriormente criadas (no exemplo foram utilizados os arquivos 'index' e 'contato'.
+    
+    ![templates](temp1.png)
+    
+    * A variável 'context' dentro da view é passada para o template a partir da função render() da view. As informações passadas ficam disponíves para utilização do template (obs. o servidor deve estar em execução para visualização da pagina gerada).
+
+    ![viewContext](view2.png)
+    
+    ![index](temp2.png)
     
     
