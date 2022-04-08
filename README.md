@@ -173,3 +173,9 @@
     * O 'Model' gerencia os dados e é representado por um banco de dados. O 'model' é basicamente uma tabela de banco de dados.
     * A 'View' recebe solicitações HTTP e envia respostas HTTP. A 'view' interage com um modelo e um template para concluir uma resposta.
     * O 'Template' é basicamente a camada front-end e o componente HTML dinâmico de uma aplicação Django.
+
+    ![mvt](django6.png)
+    
+1. Configurações do Django e arquivo 'settings.py'
+
+    *
