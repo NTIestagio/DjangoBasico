@@ -231,4 +231,14 @@
 
     ![urls](urls1.png)
     
+    * IMPORTANTE! Caso haja tentativa de acesso a uma view que não exite, caso tenha sido utilizada as configurações acima, as rotas criadas serão todas exibidas (todas as rotas constantes no arquivo urls.py pertencente ao diretório do projeto), o que pode representar uma falha de segurança:
+
+    ![rotas](rotas1.png)
+    
+    * Sugere-se dessa forma a criação de um arquivo de rotas (urls.py) dentro da aplicação e apenas um path referenciando a esse arquivo dentro do arquivo de rotas do projeto através da função include.
+
+    ![rotas](rotas2.png)
+    
+    ![urls](urls2.png)
+    
     
