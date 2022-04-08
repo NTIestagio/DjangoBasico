@@ -178,4 +178,43 @@
     
 1. Configurações do Django e arquivo 'settings.py'
 
-    *
+    * Importante: sempre que for utilizar os comandos de gerenciamento dos projetos Django certifique-se de executá-los no mesmo diretório do arquivo 'manage.py'. Para isso, verifique no terminal pycharm:
+        
+        no linux:
+        
+        ``` powershell
+            (...)\> ls
+        ```
+
+        ou no windows:
+
+        ``` powershell
+            (...)\> dir
+        ```
+        
+        Como resultado deverão ser informados os arquivos e diretórios contindos no diretório atual, devendo estar incluído entre eles o arquivo 'manage.py'.
+
+    * Inicializando o servidor:
+    
+    ``` powershell
+        (...)\> python3 manage.py runserver
+    ```
+    
+    ``` powershell
+        (...)\> python manage.py runserver
+    ```
+        
+    ![mvt](django7.png)
+    
+        * obs. para encerrar o servidor aperte <control+c>
+    
+    * No arquivo 'settings.py' dentro do projeto Django criado, é possivel fazer as configurações de ligua (alteração de en-us para pt-br), permissõe de host e debug:
+
+    ![mvt](django9.png)
+    
+    ![mvt](django8.png)
+    
+    * Observe que ao cliclar no endereço fornecido (geralmente loopback), será exibida a seguinte página (já em sua versão traduzida, caso tenha sido feita a alteração acima):
+
+    ![mvt](django10.png)
+    
