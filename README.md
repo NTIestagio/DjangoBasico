@@ -337,6 +337,7 @@
     
         ``` powershell
             >>> from core.models import Produto
+            >>> from core.models import Cliente
             >>> from core.views import index
             >>> dir(Produto)
             >>> dir(index)
@@ -344,8 +345,16 @@
     * Instanciar novos elementos e salva-los no banco de dados:
     
         ``` powershell
-            >>> from core.models import Produto
-            >>> from core.views import index
-            >>> dir(Produto)
-            >>> dir(index)
+            >>> produto = Produto(nome='Atari 2600', preco=199.50, estoque=100)
+            >>> produto.save()
+            >>> cliente = Cliente(nome='Maria', sobrenome='da Silva', nome='mariadasilva@gmail.com')
+            >>> cliente.save()
+        ```
+     * Instanciar novos elementos e salva-los no banco de dados:
+    
+        ``` powershell
+            >>> produto = Produto(nome='Atari 2600', preco=199.50, estoque=100)
+            >>> produto.save()
+            >>> cliente = Cliente(nome='Maria', sobrenome='da Silva', nome='mariadasilva@gmail.com')
+            >>> cliente.save()
         ```
