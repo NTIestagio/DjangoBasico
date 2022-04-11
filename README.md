@@ -393,6 +393,12 @@
             STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')#durante produção debug==false
         ```
     
+    * O diretório 'staticfiles' é criado automaticamente a partir do comando:
+         
+        ``` python
+            > python manage.py collectstatic
+        ```
+    
 1. Publicando os projetos na internet
     
     * 
