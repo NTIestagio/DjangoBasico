@@ -374,3 +374,17 @@
         ```
         
         * Os objetos resgatados na 'views.py' podem ser utilizados dentro dos templates a partir do 'context' de cada método criado para um respectivo template.
+
+1. Arquivos estáticos
+    
+    * Para utilizar arquivos estáticos de CSS, JS e imagens nos templates, insira '{% load static %}' no template:
+        
+        ```
+            <link rel="stylesheet" href="{% static 'css/estilos.css' %}"><!-- referencia a css -->
+            <img src="{% static 'images/logo.png' %}" alt="My image"> <!-- referencia a imagens -->
+            <script type="text/javascript" src="{% static 'js/script.js' %}"></script> <!-- referencia a js -->
+        ```
+
+1. Publicando os projetos na internet
+    
+    * 
