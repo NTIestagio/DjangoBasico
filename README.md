@@ -370,7 +370,7 @@
         
         ``` python
             produtos = Produto.objects.all()#resgata uma série de objetos do tipo 'Produto', do BD
-            produtoUnd = Produto.objects.get(pk=pk)#resgata um objeto especifico do tipo 'Produto' com atributo pk correspondente ao parametro pk passado
+            produtoUnit = Produto.objects.get(pk=pk)#resgata um objeto especifico do tipo 'Produto' com atributo pk correspondente ao parametro pk passado
         ```
         
         * Os objetos resgatados na 'views.py' podem ser utilizados dentro dos templates a partir do 'context' de cada método criado para um respectivo template.
