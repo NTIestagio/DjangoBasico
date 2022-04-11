@@ -379,10 +379,10 @@
     
     * Para utilizar arquivos estáticos de CSS, JS e imagens nos templates, insira '{% load static %}' no template:
         
-        ```
-            <link rel="stylesheet" href="{% static 'css/estilos.css' %}"><!-- referencia a css -->
-            <img src="{% static 'images/logo.png' %}" alt="My image"> <!-- referencia a imagens -->
-            <script type="text/javascript" src="{% static 'js/script.js' %}"></script> <!-- referencia a js -->
+        ``` html
+            <link rel="stylesheet" href="{% static 'css/estilos.css' %}"><!-- faz referencia a css -->
+            <img src="{% static 'images/logo.png' %}" alt="My image"><!-- faz referencia a imagens -->
+            <script type="text/javascript" src="{% static 'js/script.js' %}"></script><!-- faz referencia a js -->
         ```
 
 1. Publicando os projetos na internet
