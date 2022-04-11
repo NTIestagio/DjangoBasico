@@ -339,7 +339,7 @@
             >>> from core.models import Produto
             >>> from core.models import Cliente
             >>> from core.views import index
-            >>> dir(Produto)
+            >>> dir(Produto) //exibe os atributos do objeto
             >>> dir(index)
         ```
     * Instanciar novos objetos e salva-los no banco de dados:
@@ -357,3 +357,19 @@
             >>> cliente.save()
             >>> cliente.delete()
         ```
+
+1. Apresentando os dados do BD no template
+    
+    * Importe a classe models na views.py do app, e acesse seus objetos e atributos:
+        
+        ``` python
+            from .models  import Produto
+        ```
+    
+    * Para resgatar objetos para exibição, utiliza o metodo 'objects':
+        
+        ``` python
+            produtos = Produto.objects.all()#resgata uma série de objetos do tipo 'Produto', do BD
+            produtoUnd = Produto.objects.get(pk=pk)#resgata um objeto especifico do tipo 'Produto' com atributo pk correspondente ao parametro pk passado
+        ```
+    
