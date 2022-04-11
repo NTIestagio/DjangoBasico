@@ -180,13 +180,13 @@
 
     * Importante: sempre que for utilizar os comandos de gerenciamento dos projetos Django certifique-se de executá-los no mesmo diretório do arquivo 'manage.py'. Para isso, verifique no terminal pycharm:
         
-        no linux:
+        * no linux:
         
             ``` powershell
                 (...)\> ls
             ```
 
-        ou no windows:
+        * ou no windows:
 
             ``` powershell
                 (...)\> dir
@@ -321,4 +321,16 @@
 1. Django Shell
 
     * A lista de comandos disponível para o manage.py é exibida a partir do comando 'python manage.py'.
-    * O comando 'python manage.py help <subcomando>' 
+    * O comando 'python manage.py help <subcomando>' exibe as informações de ajuda para determinado comando disponível
+        
+        ``` powershell
+            (...)\<nome-do-projeto> python manage.py help
+            (...)\<nome-do-projeto> django-admin help
+        ```
+    * O comando shell abre um terminal python interativo
+    
+        ``` powershell
+            (...)\<nome-do-projeto> python manage.py shell
+            (...)\<nome-do-projeto> django-admin shell
+        ```
+        
