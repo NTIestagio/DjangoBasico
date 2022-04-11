@@ -327,10 +327,25 @@
             (...)\<nome-do-projeto> python manage.py help
             (...)\<nome-do-projeto> django-admin help
         ```
-    * O comando shell abre um terminal python interativo
+    * O comando shell abre um terminal python interativo. Sendo possivel gerenciar os componentes do framework, como banco de dados a partir de cli gerado.
     
         ``` powershell
             (...)\<nome-do-projeto> python manage.py shell
             (...)\<nome-do-projeto> django-admin shell
         ```
-        
+    * Pode-se importar as classes criadas:
+    
+        ``` powershell
+            >>> from core.models import Produto
+            >>> from core.views import index
+            >>> dir(Produto)
+            >>> dir(index)
+        ```
+    * Instanciar novos elementos e salva-los no banco de dados:
+    
+        ``` powershell
+            >>> from core.models import Produto
+            >>> from core.views import index
+            >>> dir(Produto)
+            >>> dir(index)
+        ```
