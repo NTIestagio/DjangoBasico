@@ -384,7 +384,15 @@
             <img src="{% static 'images/logo.png' %}" alt="My image"><!-- faz referencia a imagens -->
             <script type="text/javascript" src="{% static 'js/script.js' %}"></script><!-- faz referencia a js -->
         ```
-
+        
+    * Observe que o diretório 'static' deve ser criado dentro do diretório correspondente a aplicação. No exemplo acima, o diretório 'static' contém os subdiretórios css, images e js, cada um contendo os arquivos a que são feitas as referências acima.
+    * Tais diretórios das aplicações são utilizados apenas no modo desenvolvedor. Quando da publicação do projeto, tais arquivos são copiados para um diretório 'staticfiles' global, que contém arquivos referentes a todo o projeto e suas aplicações. De modo que o arquivo de *'settings.py'* deve ser acrescido com a variavel STATIC_ROOT, conforme abaixo:
+    
+        ``` python
+            STATIC_URL = '/static/'#durante desenvolvimento debug==true
+            STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')#durante produção debug==false
+        ```
+    
 1. Publicando os projetos na internet
     
     * 
