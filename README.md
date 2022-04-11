@@ -342,7 +342,7 @@
             >>> dir(Produto)
             >>> dir(index)
         ```
-    * Instanciar novos elementos e salva-los no banco de dados:
+    * Instanciar novos objetos e salva-los no banco de dados:
     
         ``` powershell
             >>> produto = Produto(nome='Atari 2600', preco=199.50, estoque=100)
@@ -350,11 +350,10 @@
             >>> cliente = Cliente(nome='Maria', sobrenome='da Silva', nome='mariadasilva@gmail.com')
             >>> cliente.save()
         ```
-     * Instanciar novos elementos e salva-los no banco de dados:
+     * É possível acessar os atributos e alterá-los. Sendo possivel também removê-lo a partir do método 'delete':
     
         ``` powershell
-            >>> produto = Produto(nome='Atari 2600', preco=199.50, estoque=100)
-            >>> produto.save()
-            >>> cliente = Cliente(nome='Maria', sobrenome='da Silva', nome='mariadasilva@gmail.com')
+            >>> cliente.nome= 'Maria Severina'
             >>> cliente.save()
+            >>> cliente.delete()
         ```
