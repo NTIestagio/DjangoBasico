@@ -373,6 +373,8 @@
             produtoUnit = Produto.objects.get(pk=pk)#resgata um objeto especifico do tipo 'Produto' com atributo pk correspondente ao parametro pk passado
         ```
         
+        * Alternativamente, pode-se utilizar o método 'get_object_or_404(Produto, pk=pk)' para exibir a página html404 caso não consiga resgatar o objeto a ser utilizado para geração do template na view.
+    
         * Os objetos resgatados na 'views.py' podem ser utilizados dentro dos templates a partir do 'context' de cada método criado para um respectivo template.
 
 1. Arquivos estáticos
@@ -398,6 +400,7 @@
         ``` python
             > python manage.py collectstatic
         ```
+    * Template para erro 404 personalizado pode ser gerado criando-se o arquivo '404.html' nos templates da aplicação
     
 1. Publicando os projetos na internet
     
