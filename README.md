@@ -400,8 +400,20 @@
         ``` python
             > python manage.py collectstatic
         ```
+    
     * Template para erro 404 personalizado pode ser gerado criando-se o arquivo '404.html' nos templates da aplicação
     
 1. Publicando os projetos na internet
     
-    * 
+    * Instale as ferramentas whitenoise e gunicorn:
+    
+        ``` shell
+            > pip install whitenoise gunicorn
+        ```
+        
+        * Deve ser exibida a mensagem de sucesso da instalação, por exemplo:
+        
+            ``` shell
+                Installing collected packages: whitenoise, gunicorn
+                Successfully installed gunicorn-20.1.0 whitenoise-6.0.0
+            ```
