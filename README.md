@@ -415,3 +415,8 @@
                 Installing collected packages: whitenoise, gunicorn
                 Successfully installed gunicorn-20.1.0 whitenoise-6.0.0
             ```
+    * Antes de efetuar login no HEROKU pela rede, realize o set do HOMEDRIVE no windows CMD
+        
+            ``` shell
+                > set HomeDrive=C:\Users\<nome-do-usuario>
+            ```
